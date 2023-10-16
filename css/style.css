@@ -1,0 +1,73 @@
+:root {
+    --headfoot: #262525; 
+    --hftext: #EFB27A;
+    --bg1: #583B28;
+    --bg2: #956749;
+    --bg3: #785138;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: var(--headfoot);
+}
+
+.bc-text {
+    color: var(--hftext);
+}
+
+.bc-text:hover {
+    color: var(--hftext);
+}
+
+.btn-color {
+    background-color: #000000;
+    color: var(--hftext);
+}
+
+.head-text {
+    font-size: 46px;
+}
+
+.cust-tog {
+    background-color: var(--hftext);
+}
+
+/* main */
+
+#section1 {
+    position: relative;
+    height: 450px;
+    background-color: var(--bg1);
+    padding-top: 25px;
+}
+
+.my-col {
+    position: absolute;
+    width: 80%;
+}
+
+.my-img {
+    position: absolute;
+    top: -55px;
+    padding: 0;
+    width: 170px;
+    height: auto;
+}
+
+.my-div {
+    width: 60%;
+    padding: 25px;
+}
+
+.btn-div {
+    width: 45%;
+    padding-left: 25px;
+}
+
+.col-btn {
+    padding: 10px 75px;
+}
